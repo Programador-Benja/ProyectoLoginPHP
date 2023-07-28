@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(0, 170, 255), rgb(0, 255, 191));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.seccion-container{
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+}
+.div-correo label, .div-password label, .div-name label, h3{
+    font-size: 2rem;
+    font-family: cursive;
+    text-shadow: 2px 2px 2px grey;
+}
+.div-btn, h3{
+    display: flex;
+    justify-content: center;
+}
+.btn-ingresar{
+    font-size: 1.2rem;
+}

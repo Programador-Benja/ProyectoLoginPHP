@@ -9,40 +9,45 @@
   </head>
   <body>
 
+    <main class="main-container container">
+        <h1 class="titulo">Sign up</h1>
+    </main>
+
     <section class="container seccion-container">
+    
         <form method="post">
             
             <div class="mb-3 div-name">
                 <div class="row">
                     <div class="col">
-                        <label for="name" class="form-label">Nombre</label>
+                        <label for="name" class="form-label"><i class="fa-solid fa-user"></i> Nombre</label>
                         <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="name" name="nombre">
                     </div>
 
                     <div class="col">
-                        <label for="lastName" class="form-label">Apellido</label>
+                        <label for="lastName" class="form-label"><i class="fa-solid fa-user"></i> Apellido</label>
                         <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="lastName" name="apellido">
                     </div>
                 </div>
             </div>
 
             <div class="mb-3 div-correo">
-              <label for="exampleInputEmail1" class="form-label">Correo Electrico</label>
+              <label for="exampleInputEmail1" class="form-label"><i class="fa-solid fa-envelope"></i> Correo Electrico</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@gmail.com" name="correo">
             </div>
     
             <div class="mb-3 div-password">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <label for="exampleInputPassword1" class="form-label"><i class="fa-solid fa-lock"></i> Contraseña</label>
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password" name="password">
             </div>
 
             <div class="mb-3 div-password">
-              <label for="exampleInputPassword1" class="form-label">Confirmar Contraseña</label>
+              <label for="exampleInputPassword1" class="form-label"><i class="fa-solid fa-lock"></i> Confirmar Contraseña</label>
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password" name="passwordConfirm">
             </div>
 
             <div class="mb-3 div-btn">
-              <button type="submit" class="btn btn-primary btn-ingresar" name="registrar">Registrarse</button>
+              <button type="submit" class="btn btn-ingresar" name="registrar">Registrarse</button>
             </div>
 
             <div class="div-registrarse">
@@ -52,6 +57,7 @@
           </form>
     </section>
 
+    <script src="https://kit.fontawesome.com/ffb39b6180.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>

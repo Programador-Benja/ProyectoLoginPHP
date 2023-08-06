@@ -9,21 +9,27 @@
   </head>
   <body>
 
+    <main class="main-container container">
+      <div>
+        <h1 class="titulo">Login</h1>
+      </div>
+    </main>
+
     <section class="container seccion-container">
         <form method="post">
-            
+
             <div class="mb-3 div-correo">
-              <label for="exampleInputEmail1" class="form-label">Correo Electrico</label>
+              <label for="exampleInputEmail1" class="form-label"><i class="fa-solid fa-envelope"></i> Correo Electrico</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@gmail.com" name="correoRegister">
             </div>
     
             <div class="mb-3 div-password">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <label for="exampleInputPassword1" class="form-label"><i class="fa-solid fa-key"></i> Contraseña</label>
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password" name="passwordRegister">
             </div>
 
             <div class="mb-3 div-btn">
-              <button type="submit" class="btn btn-primary btn-ingresar" name="iniciarsesion">Iniciar Sesión</button>
+              <button type="submit" class="btn btn-ingresar" name="iniciarsesion">Iniciar Sesión</button>
             </div>
 
             <div class="mb-3 div-span">
@@ -37,6 +43,7 @@
           </form>
     </section>
 
+    <script src="https://kit.fontawesome.com/ffb39b6180.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>

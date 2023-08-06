@@ -5,7 +5,7 @@
         if (strlen($_POST['correoRegister']) > 1 && strlen($_POST['passwordRegister']) > 1) {
             $correoR  = $_POST['correoRegister'];
             $passR = $_POST['passwordRegister'];
-            $correo;
+            $correo = "Prueba@gmail.com";
             $pass;
             $nombre;
 
